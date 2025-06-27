@@ -4,8 +4,8 @@
     <h2>Video Playlist from Relaxed Axolotl</h2>
     <div class="row">
         <?php
-        $api_key = 'UCP4H6Oww8HKQtJIdehoflNA'; // YOUR_YOUTUBE_API_KEY
-        $channel_id = 'AIzaSyBFZDwEknsw4-JGg-i6COYTf0d_nymmJVw'; // Replace with Relaxed Axolotl's channel ID
+        $api_key = ''; // YOUR_YOUTUBE_API_KEY
+        $channel_id = ''; // Replace with Relaxed Axolotl's channel ID
         $api_url = "https://www.googleapis.com/youtube/v3/search?key=$api_key&channelId=$channel_id&part=snippet&type=video&maxResults=6";
 
         $response = wp_remote_get($api_url);
